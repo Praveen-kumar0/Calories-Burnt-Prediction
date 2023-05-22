@@ -32,13 +32,13 @@ def main():
     
     # getting the input data from the user
     
-    Gender = st.number_input('Gender(0 for male, 1 for female) ')
+    Gender = st.number_input('Gender (0 for male, 1 for female) ')
     Age = st.number_input('Age ')
-    Height = st.number_input('Height(in cm) ')
-    Weight = st.number_input('Weight(in kgs) ')
-    Duration = st.number_input('Duration(in min) ')
-    Heart_Rate = st.number_input('Heart_Rate(in bpm) ')
-    Body_Temp = st.number_input('Body_Temp(in celsius) ')
+    Height = st.number_input('Height (in cm) ')
+    Weight = st.number_input('Weight (in kgs) ')
+    Duration = st.number_input('Duration (in min) ')
+    Heart_Rate = st.number_input('Heart_Rate (in bpm) ')
+    Body_Temp = st.number_input('Body_Temp (in celsius) ')
     
     
     # code for prediction
